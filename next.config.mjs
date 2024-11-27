@@ -5,13 +5,3 @@ export const eslint = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
 };
-
-const path = require('path');
-
-module.exports = {
-  webpack(config) {
-    // Add alias for '@'
-    config.resolve.alias['@'] = path.resolve(__dirname, 'src');
-    return config;
-  },
-};
