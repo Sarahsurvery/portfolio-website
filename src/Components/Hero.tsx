@@ -1,10 +1,10 @@
 import React from "react"
-import Navbar from "./navbar"
+import Navbar from "@/components/navbar"
 
 const Hero =() => {
     return(
 
-        <div id ="hero" className='min-h-screen bg-no-repeat bg-[url(/create_portfolio.png)] bg-right bg-cover'
+        <div id ="Hero" className='min-h-screen bg-no-repeat bg-[url(/create_portfolio.png)] bg-right bg-cover'
         style={{backgroundSize:"30%", backgroundPosition:"right 50px top 100px"}}
         >
             <Navbar /> 
